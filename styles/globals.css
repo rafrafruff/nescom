@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .Main {
+    @apply w-10/12 max-w-3xl mx-auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply leading-tight font-bold text-3xl;
+  }
+
+  p,
+  span {
+    @apply leading-loose my-5;
+  }
+
+  a {
+    @apply underline;
+  }
+
+  a:hover {
+    @apply no-underline;
+  }
+
+  button {
+    @apply border-solid border-2 border-black py-2 px-4;
+  }
+
+  button:hover {
+    @apply opacity-80;
+  }
+}
