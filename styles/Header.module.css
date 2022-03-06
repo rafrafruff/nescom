@@ -1,0 +1,55 @@
+.Header {
+  background-color: var(--primary);
+  padding: 1rem 2rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.HeaderElem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LogoWrapper {
+  background-color: var(--white);
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+}
+
+.HamMenuWrapper {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.HamMenu {
+  background-color: white;
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.HamMenu::after {
+  content: '';
+  background-color: white;
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 10px;
+}
+
+.HamMenu::before {
+  content: '';
+  background-color: white;
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  bottom: 10px;
+}

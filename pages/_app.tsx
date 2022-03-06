@@ -3,9 +3,9 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="Main">
+    <div>
       <Head>
-        <title>NextJS, TypeScript and Tailwind CSS template</title>
+        <title>Nescom RD, comunicación efectiva para nuestros clientes.</title>
         <meta charSet="UTF-8" />
         <meta name="description" content="NextJS app" />
         <meta name="keywords" content="NextJS, TypeScript, Tailwind" />

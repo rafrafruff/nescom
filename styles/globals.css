@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  .Main {
-    @apply w-10/12 max-w-3xl mx-auto;
-  }
-
   h1,
   h2,
   h3,
@@ -35,4 +31,11 @@
   button:hover {
     @apply opacity-80;
   }
+}
+
+:root {
+  --primary: #ed3a39;
+  --secondary: #9e98aa;
+  --black: black;
+  --white: white;
 }
