@@ -1,5 +1,9 @@
 .Header {
   background-color: var(--primary);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 5;
   padding: 1rem 2rem;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
 }

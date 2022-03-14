@@ -23,14 +23,6 @@
   a:hover {
     @apply no-underline;
   }
-
-  button {
-    @apply border-solid border-2 border-black py-2 px-4;
-  }
-
-  button:hover {
-    @apply opacity-80;
-  }
 }
 
 :root {
@@ -38,4 +30,11 @@
   --secondary: #9e98aa;
   --black: black;
   --white: white;
+  --font-big: 1.5rem;
+  --font-medium: 1.2rem;
+  --bold: 700;
+}
+
+body {
+  overflow-x: hidden;
 }
