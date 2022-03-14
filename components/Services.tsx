@@ -8,7 +8,7 @@ import styles from '../styles/Services.module.css'
 export default function Services() {
   return (
     <div className={styles.Services}>
-      <h2>Nuestros servicios</h2>
+      <h2>Nuestros Servicios</h2>
       <div>
         <div className={styles.ImageWrapper}>
           <Image src={Maestria} />
