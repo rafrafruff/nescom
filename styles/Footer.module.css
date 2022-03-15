@@ -1,0 +1,55 @@
+.Footer {
+  background-color: var(--primary);
+  padding-top: 2rem;
+}
+
+.PreFooter {
+  display: grid;
+  place-items: center;
+}
+
+.FooterForm {
+  padding: 1rem 0;
+}
+
+.FooterNav {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.FooterNav > span {
+  margin: 0 0 0.5rem 0;
+  font-weight: var(--bold);
+}
+
+.FooterInfo {
+  display: grid;
+  place-items: center;
+  padding: 1rem 0;
+}
+
+.FooterInfo > * {
+  margin: 0;
+}
+
+.ImageWrapper {
+  width: 50px;
+  margin: 1rem;
+}
+
+.SocialMedia {
+  display: flex;
+}
+
+.SocialMediaIconWrapper {
+  width: 20px;
+  margin: 0.5rem;
+}
+
+.PostFooter {
+  background-color: var(--black);
+  color: var(--secondary);
+  font-size: var(--font-small);
+  padding: 0.5rem;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,11 +32,13 @@
   --secondary: #9e98aa;
   --black: black;
   --white: white;
-  --font-big: 1.5rem;
-  --font-medium: 1.2rem;
+  --font-big: 1.5em;
+  --font-medium: 1.2em;
+  --font-small: 0.8em;
   --bold: 700;
 }
 
 body {
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }

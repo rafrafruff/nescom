@@ -1,0 +1,35 @@
+.Blog {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.ImageWrapper {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+}
+
+.Publicaciones {
+  padding: 1rem 0;
+}
+
+.Publicaciones > div {
+  padding: 2rem 0;
+}
+
+.Publicaciones > div > h4 {
+  font-size: var(--font-big);
+}
+
+.Publicaciones > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,9 +1,11 @@
 import Header from '../components/Header'
 import Component from '../components/Component'
-import ComponentTwo from '../components/ComponentTwo'
+import GrayBackground from '../components/GrayBackground'
 import Presentation from '../components/Presentation'
 import AboutUs from '../components/AboutUs'
 import Clients from '../components/Clients'
+import Blog from '../components/Blog'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -13,9 +15,20 @@ export default function Home() {
         <Presentation />
         <AboutUs />
       </Component>
-      <ComponentTwo>
-        <Clients />
-      </ComponentTwo>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#9e98aa"
+          fillOpacity="1"
+          d="M0,192L1440,64L1440,320L0,320Z"
+        ></path>
+      </svg>
+      <GrayBackground>
+        <Component>
+          <Clients />
+          <Blog />
+        </Component>
+      </GrayBackground>
+      <Footer />
     </div>
   )
 }

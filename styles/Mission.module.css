@@ -10,3 +10,7 @@
 .MissionModal > div > h3 {
   font-size: 1.5em;
 }
+
+.MissionSecondarySection {
+  padding: 2rem 0;
+}

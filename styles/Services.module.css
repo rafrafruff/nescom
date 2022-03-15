@@ -2,10 +2,14 @@
   text-align: center;
 }
 
+.Services > h2 {
+  margin: 4rem 0;
+}
+
 .Services > div {
   background-color: var(--primary);
-  padding: 2rem 3rem;
-  margin: 1rem 0;
+  margin: 1rem auto;
+  padding: 2rem;
   border-radius: 8px;
   display: grid;
   place-items: center;
@@ -15,6 +19,8 @@
 
 .Services > div > h3 {
   color: var(--white);
+  font-size: 1.5em;
+  margin: 1rem 0;
 }
 
 .Services > div > .ImageWrapper {
@@ -23,5 +29,6 @@
   border-radius: 50%;
   display: grid;
   overflow: hidden;
-  margin: 0.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }

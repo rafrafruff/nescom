@@ -3,7 +3,7 @@ import styles from '../styles/Mission.module.css'
 export default function Mission() {
   return (
     <div className={styles.MissionModal}>
-      <div className={styles.Who}>
+      <div className={styles.MissionPrimarySection}>
         <h2>¿Quiénes somos?</h2>
         <p>
           Nos dedicamos a hacer más efectivas las relaciones entre nuestros
@@ -11,7 +11,7 @@ export default function Mission() {
           comunicacionales.
         </p>
       </div>
-      <div className={styles.Mission}>
+      <div className={styles.MissionSecondarySection}>
         <h3>Misión</h3>
         <p>
           Somos una empresa dedicada a hacer más efectivas las relaciones entre
@@ -19,14 +19,14 @@ export default function Mission() {
           comunicacionales.
         </p>
       </div>
-      <div className={styles.Values}>
+      <div className={styles.MissionSecondarySection}>
         <h3>Valores</h3>
         <p>
           Servicio, eficiencia, calidad, proacción y entusiasmo inspiran a cada
           colaborador de nuestro equipo de profesionales y asociados.
         </p>
       </div>
-      <div className={styles.Vision}>
+      <div className={styles.MissionSecondarySection}>
         <h3>Visión</h3>
         <p>
           Ser una empresa referida por nuestros clientes como fuente de
