@@ -7,6 +7,8 @@ import Form from './Form'
 import styles from '../styles/Footer.module.css'
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear()
+
   return (
     <footer className={styles.Footer}>
       <div className={styles.PreFooter}>
@@ -40,7 +42,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className={styles.PostFooter}>Nescom, R. D.™ 2022</div>
+      <div className={styles.PostFooter}>
+        Nescom, R. D.&#8482; {currentYear}
+      </div>
     </footer>
   )
 }

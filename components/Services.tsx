@@ -9,29 +9,31 @@ export default function Services() {
   return (
     <div className={styles.Services}>
       <h2>Nuestros Servicios</h2>
-      <div>
-        <div className={styles.ImageWrapper}>
-          <Image src={Maestria} />
+      <div className={styles.ServicesWrapper}>
+        <div>
+          <div className={styles.ImageWrapper}>
+            <Image src={Maestria} />
+          </div>
+          <h3>Maestría de ceremonias</h3>
         </div>
-        <h3>Maestría de ceremonias</h3>
-      </div>
-      <div>
-        <div className={styles.ImageWrapper}>
-          <Image src={Consultoria} />
+        <div>
+          <div className={styles.ImageWrapper}>
+            <Image src={Consultoria} />
+          </div>
+          <h3>Consultoría en comunicación</h3>
         </div>
-        <h3>Consultoría en comunicación</h3>
-      </div>
-      <div>
-        <div className={styles.ImageWrapper}>
-          <Image src={Voz} />
+        <div>
+          <div className={styles.ImageWrapper}>
+            <Image src={Voz} />
+          </div>
+          <h3>Voz comercial</h3>
         </div>
-        <h3>Voz comercial</h3>
-      </div>
-      <div>
-        <div className={styles.ImageWrapper}>
-          <Image src={Relaciones} />
+        <div>
+          <div className={styles.ImageWrapper}>
+            <Image src={Relaciones} />
+          </div>
+          <h3>Relaciones públicas</h3>
         </div>
-        <h3>Relaciones públicas</h3>
       </div>
     </div>
   )

@@ -1,37 +1,26 @@
 .Clients > h2 {
-  text-align: center;
-  padding: 2rem 0;
+  @apply text-center py-8;
 }
 
 .Testimonial {
   background-color: var(--white);
-  padding: 1rem 2rem;
-  margin: 2rem 0;
-  border-radius: 8px;
+  @apply py-4 px-8 my-8 rounded-lg;
 }
 
 .TestimonialAuthor {
-  display: grid;
-  place-items: center;
+  @apply grid place-items-center;
 }
 
 .TestimonialImageWrapper {
-  display: grid;
-  overflow: hidden;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin: 1rem;
+  @apply grid overflow-hidden w-12 h-12 rounded-full m-4;
 }
 
 .TestimonialAuthorInfo {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  @apply flex flex-col text-center;
 }
 
 .TestimonialAuthorInfo > span {
-  margin: 0;
+  @apply m-0;
 }
 
 .TestimonialAuthorName {

@@ -1,9 +1,5 @@
 .Presentation {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  @apply min-h-screen flex flex-col justify-center items-baseline;
 }
 
 .Heading {
@@ -13,23 +9,17 @@
 .Button {
   font-size: var(--font-medium);
   font-weight: var(--bold);
-  padding: 0.5rem 1rem;
   background-color: var(--primary);
   color: var(--white);
-  border-radius: 2rem;
-  margin-top: 1.5rem;
-  transition: all 0.2s ease-out;
+  @apply py-2 px-4 rounded-full mt-6 transition;
 }
 
 .Button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--light-shadow);
 }
 
-.ImageSlider {
-  display: grid;
-  overflow: hidden;
-  border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  margin: 2rem 0;
+.ImageWrapper {
+  box-shadow: var(--light-shadow);
+  @apply grid overflow-hidden rounded-lg my-8;
 }

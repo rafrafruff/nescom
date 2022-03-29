@@ -1,31 +1,23 @@
 .Form {
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
+  @apply flex flex-col items-baseline;
 }
 
 .Form > * {
-  margin: 0.5rem 0;
+  @apply my-2;
 }
 
 .FormEmailInput {
   background-color: var(--white);
-  width: 300px;
-  height: 40px;
-  padding: 0.5rem;
-  border-radius: 2px;
+  @apply w-80 h-10 p-2 rounded;
 }
 
 .FormTextarea {
-  width: 300px;
-  height: 200px;
-  padding: 0.5rem;
-  border-radius: 2px;
+  background-color: var(--white);
+  @apply w-80 h-40 p-2 rounded;
 }
 
 .FormBtn {
   background-color: var(--black);
   color: var(--white);
-  padding: 0.5rem 1rem;
-  border-radius: 25px;
+  @apply py-2 px-4 rounded-full;
 }

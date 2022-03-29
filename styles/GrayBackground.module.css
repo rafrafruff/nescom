@@ -1,4 +1,4 @@
 .GrayBackground {
-  width: 100%;
+  @apply w-full;
   background-color: var(--secondary);
 }
