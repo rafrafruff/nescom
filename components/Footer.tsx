@@ -3,13 +3,16 @@ import Logo from '../images/nescom-logo.png'
 import Facebook from '../images/facebook.png'
 import Instagram from '../images/instagram.png'
 import Twitter from '../images/twitter.png'
+import Form from './Form'
 import styles from '../styles/Footer.module.css'
 
 export default function Footer() {
   return (
     <footer className={styles.Footer}>
       <div className={styles.PreFooter}>
-        <div className={styles.FooterForm}>form</div>
+        <div className={styles.FooterForm}>
+          <Form />
+        </div>
         <div className={styles.FooterNav}>
           <span>Inicio</span>
           <span>Servicios</span>

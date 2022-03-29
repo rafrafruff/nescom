@@ -1,0 +1,31 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.Form > * {
+  margin: 0.5rem 0;
+}
+
+.FormEmailInput {
+  background-color: var(--white);
+  width: 300px;
+  height: 40px;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.FormTextarea {
+  width: 300px;
+  height: 200px;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.FormBtn {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+}
