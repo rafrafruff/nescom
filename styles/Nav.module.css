@@ -1,0 +1,25 @@
+.NavWrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  @apply fixed inset-0 w-full mt-24 hidden;
+}
+
+.Nav {
+  background-color: var(--primary);
+  @apply flex flex-col items-center;
+}
+
+.Nav > span {
+  color: var(--white);
+  font-size: var(--font-medium);
+  @apply my-4;
+}
+
+.NavDesktop {
+  @apply flex hidden lg:block;
+}
+
+.NavDesktop > span {
+  color: var(--white);
+  font-size: var(--font-medium);
+  @apply mx-4;
+}

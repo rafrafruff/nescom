@@ -9,6 +9,10 @@
   font-size: var(--font-big);
 }
 
+.MissionModal > div > p {
+  @apply mx-auto lg:max-w-3xl;
+}
+
 .MissionSecondarySection {
   @apply pt-8;
 }

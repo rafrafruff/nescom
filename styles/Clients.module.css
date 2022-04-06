@@ -2,9 +2,13 @@
   @apply text-center py-8;
 }
 
+.TestimonialsWrapper {
+  @apply grid gap-6 grid-cols-1 lg:grid-cols-2 xl:grid-cols-4;
+}
+
 .Testimonial {
   background-color: var(--white);
-  @apply py-4 px-8 my-8 rounded-lg;
+  @apply flex flex-col justify-between py-4 px-8 rounded-lg;
 }
 
 .TestimonialAuthor {

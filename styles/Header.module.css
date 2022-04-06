@@ -1,7 +1,7 @@
 .Header {
   background-color: var(--primary);
   box-shadow: var(--light-shadow);
-  @apply fixed left-0 right-0 z-20 py-4 px-8;
+  @apply fixed inset-x-0 z-20 py-4 px-8;
 }
 
 .HeaderElem {
@@ -10,27 +10,13 @@
 
 .LogoWrapper {
   background-color: var(--white);
-  @apply grid place-items-center p-2 rounded-xl;
+  @apply grid place-items-center p-1.5 rounded-xl w-12;
 }
 
 .HamMenuWrapper {
-  @apply w-12 h-12 relative cursor-pointer z-50;
+  @apply cursor-pointer grid place-items-center lg:hidden;
 }
 
-.HamMenu {
-  background-color: var(--white);
-  transform: translateY(-50%);
-  @apply absolute h-0.5 w-12 top-1/2;
-}
-
-.HamMenu::after {
-  content: '';
-  background-color: var(--white);
-  @apply absolute block h-full w-full top-2.5;
-}
-
-.HamMenu::before {
-  content: '';
-  background-color: var(--white);
-  @apply absolute block h-full w-full bottom-2.5;
+.Open {
+  color: var(--white);
 }

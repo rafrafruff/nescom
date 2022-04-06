@@ -1,5 +1,26 @@
 .Presentation {
-  @apply min-h-screen flex flex-col justify-center items-baseline;
+  @apply min-h-screen flex flex-col justify-center items-baseline lg:flex-row-reverse lg:items-center;
+}
+
+.ImageWrapper {
+  @apply flex relative my-8 lg:my-0;
+}
+
+.ImageWrapper > div {
+  box-shadow: var(--light-shadow);
+  @apply grid place-items-center overflow-hidden rounded-lg;
+}
+
+.ImageWrapper > .FirstImage {
+  @apply lg:z-10 lg:scale-125;
+}
+
+.ImageWrapper > .SecondImage {
+  @apply hidden lg:grid lg:translate-x-1/2;
+}
+
+.ImageWrapper > .ThirdImage {
+  @apply hidden lg:grid lg:-translate-x-1/2;
 }
 
 .Heading {
@@ -11,15 +32,10 @@
   font-weight: var(--bold);
   background-color: var(--primary);
   color: var(--white);
-  @apply py-2 px-4 rounded-full mt-6 transition;
+  @apply py-2 px-4 rounded-full mt-6 transition-all;
 }
 
 .Button:hover {
   transform: translateY(-2px);
   box-shadow: var(--light-shadow);
-}
-
-.ImageWrapper {
-  box-shadow: var(--light-shadow);
-  @apply grid overflow-hidden rounded-lg my-8;
 }

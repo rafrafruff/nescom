@@ -7,21 +7,39 @@
 }
 
 .ServicesWrapper {
-  @apply grid gap-6 grid-cols-1 md:grid-cols-2;
+  @apply grid gap-6 grid-cols-1 lg:grid-cols-2 xl:grid-cols-4;
 }
 
 .Services > .ServicesWrapper > div {
   background-color: var(--primary);
-  @apply grid place-items-center text-center w-80 mx-auto p-8 rounded-xl;
-}
-
-.Services > .ServicesWrapper > div > h3 {
-  color: var(--white);
-  font-size: var(--font-big);
-  @apply my-4;
+  @apply grid place-items-center text-center w-64 mx-auto p-8 rounded-xl relative;
 }
 
 .Services > .ServicesWrapper > div > .ImageWrapper {
   box-shadow: var(--light-shadow);
-  @apply w-40 h-40 rounded-full grid overflow-hidden my-4;
+  @apply w-32 h-32 rounded-full grid overflow-hidden my-4 transition-opacity duration-500;
+}
+
+.Services > .ServicesWrapper > div:hover > .ImageWrapper {
+  @apply opacity-0;
+}
+
+.Services > .ServicesWrapper > div > h3 {
+  color: var(--white);
+  font-size: var(--font-medium);
+  @apply my-4 transition-opacity duration-200;
+}
+
+.Services > .ServicesWrapper > div:hover > h3 {
+  @apply opacity-0;
+}
+
+.Services > .ServicesWrapper > div > p {
+  color: var(--white);
+  font-size: var(--font-small);
+  @apply absolute inset-0 grid place-items-center p-4 opacity-0 transition-opacity duration-200;
+}
+
+.Services > .ServicesWrapper > div:hover > p {
+  @apply opacity-100;
 }
