@@ -18,7 +18,7 @@ export default function Header() {
           </Link>
         </div>
         <div onClick={navToggleActive} className={styles.HamMenuWrapper}>
-          <Icon className={styles.Open} path={mdiMenu} size={2} />
+          <Icon className={styles.Open} path={mdiMenu} size={1} />
         </div>
         <NavDesktop />
       </div>

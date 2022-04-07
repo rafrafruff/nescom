@@ -36,11 +36,11 @@
 :root {
   --primary: #ed3a39;
   --secondary: #9e98aa;
-  --black: black;
+  --black: #282022;
   --white: white;
-  --font-big: 20pt;
+  --font-big: 18pt;
   --font-medium: 12pt;
-  --font-small: 10pt;
+  --font-small: 8pt;
   --font-light: 300;
   --font-normal: 500;
   --font-bold: 700;
@@ -50,4 +50,12 @@
 body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (min-width: 576px) {
+  :root {
+    --font-big: 20pt;
+    --font-medium: 14pt;
+    --font-small: 10pt;
+  }
 }

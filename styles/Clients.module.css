@@ -45,5 +45,5 @@
 .TestimonialAuthorTitle {
   font-size: var(--font-small);
   font-weight: var(--font-normal);
-  color: var(--black);
+  color: var(--secondary);
 }

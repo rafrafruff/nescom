@@ -1,7 +1,7 @@
 .Header {
   background-color: var(--primary);
   box-shadow: var(--light-shadow);
-  @apply fixed inset-x-0 z-20 py-4 px-8 lg:py-2;
+  @apply fixed inset-x-0 z-20 py-2 px-6;
 }
 
 .HeaderElem {
@@ -10,7 +10,7 @@
 
 .LogoWrapper {
   background-color: var(--white);
-  @apply grid place-items-center p-1.5 rounded-xl w-12;
+  @apply grid place-items-center p-1 rounded-lg w-10;
 }
 
 .HamMenuWrapper {

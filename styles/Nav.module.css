@@ -1,7 +1,7 @@
 .NavWrapper {
   background-color: rgba(0, 0, 0, 0.5);
   transform: translateY(-100vh);
-  @apply fixed inset-0 w-full mt-20 transition-all duration-200 ease-in-out opacity-0 -z-10;
+  @apply fixed inset-0 w-full mt-14 transition-all duration-200 ease-in-out opacity-0 -z-10;
 }
 
 .Nav {
@@ -22,7 +22,7 @@
 
 .NavDesktop > span {
   color: var(--white);
-  font-size: var(--font-medium);
+  font-size: var(--font-small);
   font-weight: var(--font-bold);
   @apply mx-4;
 }

@@ -28,7 +28,7 @@
 .FooterInfo > span {
   font-size: var(--font-small);
   font-weight: var(--font-normal);
-  color: var(--black);
+  color: var(--white);
 }
 
 .FooterInfo > * {
@@ -44,7 +44,7 @@
 }
 
 .SocialMediaIconWrapper {
-  @apply w-5 m-2;
+  @apply flex overflow-hidden w-8 m-2 rounded-full;
 }
 
 .PostFooter {

@@ -7,11 +7,15 @@
 }
 
 .FormEmailInput {
+  font-size: var(--font-small);
+  font-weight: var(--font-normal);
   background-color: var(--white);
   @apply w-80 h-10 p-2 rounded;
 }
 
 .FormTextarea {
+  font-size: var(--font-small);
+  font-weight: var(--font-normal);
   background-color: var(--white);
   @apply w-80 h-40 p-2 rounded;
 }
@@ -21,5 +25,9 @@
   font-weight: var(--font-bold);
   background-color: var(--black);
   color: var(--white);
-  @apply rounded-full;
+  @apply rounded-full border-solid border-2 border-transparent transition-all duration-200 ease-in-out;
+}
+
+.FormBtn:hover {
+  @apply border-white;
 }

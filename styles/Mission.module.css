@@ -1,16 +1,16 @@
 .MissionModal {
   background-color: var(--primary);
   transform: translateY(-50px);
-  @apply rounded-lg py-8 px-12 text-center;
+  @apply grid grid-cols-1 gap-12 rounded-lg py-8 px-12 text-center lg:grid-cols-3;
 }
 
-.MissionModal > div > h2 {
+.MissionModal > .MissionPrimarySection > h2 {
   font-size: var(--font-big);
   font-weight: var(--font-bold);
   color: var(--white);
 }
 
-.MissionModal > div > h3 {
+.MissionModal > .MissionSecondarySection > h3 {
   font-size: var(--font-medium);
   font-weight: var(--font-bold);
   color: var(--white);
@@ -23,6 +23,6 @@
   @apply mx-auto lg:max-w-3xl;
 }
 
-.MissionSecondarySection {
-  @apply pt-8;
+.MissionPrimarySection {
+  @apply lg:col-span-3;
 }
