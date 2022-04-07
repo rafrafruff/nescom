@@ -9,7 +9,7 @@ export default function Blog() {
   return (
     <div className={styles.Blog}>
       <div className={styles.ImageWrapper}>
-        <Image src={Nestor} alt="Néstor Estévez" />
+        <Image layout="fill" src={Nestor} alt="Néstor Estévez" />
       </div>
       <h3>El Blog de Néstor</h3>
       <p>

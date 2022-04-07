@@ -1,16 +1,18 @@
 .NavWrapper {
   background-color: rgba(0, 0, 0, 0.5);
-  @apply fixed inset-0 w-full mt-24 hidden;
+  transform: translateY(-100vh);
+  @apply fixed inset-0 w-full mt-20 transition-all duration-200 ease-in-out opacity-0 -z-10;
 }
 
 .Nav {
   background-color: var(--primary);
-  @apply flex flex-col items-center;
+  @apply flex flex-col items-center py-4;
 }
 
 .Nav > span {
   color: var(--white);
   font-size: var(--font-medium);
+  font-weight: var(--font-bold);
   @apply my-4;
 }
 
@@ -21,5 +23,6 @@
 .NavDesktop > span {
   color: var(--white);
   font-size: var(--font-medium);
+  font-weight: var(--font-bold);
   @apply mx-4;
 }

@@ -1,9 +1,12 @@
 .Clients > h2 {
+  font-size: var(--font-normal);
+  font-weight: var(--font-bold);
+  color: var(--black);
   @apply text-center py-8;
 }
 
 .TestimonialsWrapper {
-  @apply grid gap-6 grid-cols-1 lg:grid-cols-2 xl:grid-cols-4;
+  @apply grid gap-6 grid-cols-1 lg:grid-cols-2;
 }
 
 .Testimonial {
@@ -11,16 +14,22 @@
   @apply flex flex-col justify-between py-4 px-8 rounded-lg;
 }
 
+.Testimonial > p {
+  font-size: var(--font-medium);
+  font-weight: var(--font-normal);
+  color: var(--black);
+}
+
 .TestimonialAuthor {
-  @apply grid place-items-center;
+  @apply flex flex-col items-center lg:flex-row;
 }
 
 .TestimonialImageWrapper {
-  @apply grid overflow-hidden w-12 h-12 rounded-full m-4;
+  @apply flex overflow-hidden w-12 h-12 rounded-full m-4 border-solid border-2 border-gray-400;
 }
 
 .TestimonialAuthorInfo {
-  @apply flex flex-col text-center;
+  @apply flex flex-col text-center lg:text-left;
 }
 
 .TestimonialAuthorInfo > span {
@@ -28,9 +37,13 @@
 }
 
 .TestimonialAuthorName {
-  font-weight: var(--bold);
+  font-size: var(--font-small);
+  font-weight: var(--font-bold);
+  color: var(--black);
 }
 
 .TestimonialAuthorTitle {
   font-size: var(--font-small);
+  font-weight: var(--font-normal);
+  color: var(--black);
 }

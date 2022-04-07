@@ -17,7 +17,9 @@
 }
 
 .FormBtn {
+  font-size: var(--font-small);
+  font-weight: var(--font-bold);
   background-color: var(--black);
   color: var(--white);
-  @apply py-2 px-4 rounded-full;
+  @apply rounded-full;
 }

@@ -1,15 +1,25 @@
 .MissionModal {
   background-color: var(--primary);
-  color: var(--white);
   transform: translateY(-50px);
   @apply rounded-lg py-8 px-12 text-center;
 }
 
-.MissionModal > div > h3 {
+.MissionModal > div > h2 {
   font-size: var(--font-big);
+  font-weight: var(--font-bold);
+  color: var(--white);
+}
+
+.MissionModal > div > h3 {
+  font-size: var(--font-medium);
+  font-weight: var(--font-bold);
+  color: var(--white);
 }
 
 .MissionModal > div > p {
+  font-size: var(--font-medium);
+  font-weight: var(--font-normal);
+  color: var(--white);
   @apply mx-auto lg:max-w-3xl;
 }
 

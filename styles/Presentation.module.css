@@ -25,17 +25,18 @@
 
 .Heading {
   font-size: var(--font-big);
+  font-weight: var(--font-bold);
+  color: var(--black);
 }
 
 .Button {
   font-size: var(--font-medium);
-  font-weight: var(--bold);
+  font-weight: var(--font-bold);
   background-color: var(--primary);
   color: var(--white);
-  @apply py-2 px-4 rounded-full mt-6 transition-all;
+  @apply rounded-lg mt-6 transition-all duration-200 ease-in-out;
 }
 
 .Button:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--light-shadow);
+  background-color: var(--black);
 }

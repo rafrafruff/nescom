@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.PostFooter}>
-        Nescom, R. D.&#8482; {currentYear}
+        <span>Nescom, R. D.&#8482; {currentYear}</span>
       </div>
     </footer>
   )

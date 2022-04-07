@@ -1,24 +1,42 @@
 .Blog {
-  @apply min-h-screen grid place-items-center text-center py-2;
+  @apply grid place-items-center text-center py-12;
 }
 
 .ImageWrapper {
   box-shadow: var(--light-shadow);
-  @apply w-52 h-52 grid overflow-hidden rounded-full m-4;
+  @apply relative w-52 h-52 overflow-hidden rounded-full my-4;
+}
+
+.Blog > h3 {
+  font-size: var(--font-big);
+  font-weight: var(--font-bold);
+  color: var(--black);
+}
+
+.Blog > p {
+  font-size: var(--font-medium);
+  font-weight: var(--font-normal);
+  color: var(--black);
+  @apply max-w-2xl;
 }
 
 .Publicaciones {
-  @apply py-4;
+  @apply pt-8;
 }
 
 .Publicaciones > div {
-  @apply py-4;
+  @apply pt-8;
 }
 
 .Publicaciones > div > h4 {
-  font-size: var(--font-big);
+  font-size: var(--font-medium);
+  font-weight: var(--font-bold);
+  color: var(--black);
 }
 
 .Publicaciones > div > span {
+  font-size: var(--font-medium);
+  font-weight: var(--font-normal);
+  color: var(--black);
   @apply flex items-center justify-center;
 }

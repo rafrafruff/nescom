@@ -1,11 +1,11 @@
 .Header {
   background-color: var(--primary);
   box-shadow: var(--light-shadow);
-  @apply fixed inset-x-0 z-20 py-4 px-8;
+  @apply fixed inset-x-0 z-20 py-4 px-8 lg:py-2;
 }
 
 .HeaderElem {
-  @apply flex items-center justify-between;
+  @apply flex items-center justify-between max-w-screen-xl mx-auto;
 }
 
 .LogoWrapper {

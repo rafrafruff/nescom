@@ -25,6 +25,12 @@
   a:hover {
     @apply no-underline;
   }
+
+  button {
+    font-size: var(--font-medium);
+    font-weight: var(--font-bold);
+    @apply px-8 py-4;
+  }
 }
 
 :root {
@@ -32,10 +38,12 @@
   --secondary: #9e98aa;
   --black: black;
   --white: white;
-  --font-big: 1.5em;
-  --font-medium: 1.2em;
-  --font-small: 0.8em;
-  --bold: 700;
+  --font-big: 20pt;
+  --font-medium: 12pt;
+  --font-small: 10pt;
+  --font-light: 300;
+  --font-normal: 500;
+  --font-bold: 700;
   --light-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
