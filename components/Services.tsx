@@ -7,7 +7,7 @@ import styles from '../styles/Services.module.css'
 
 export default function Services() {
   return (
-    <div className={styles.Services}>
+    <div className={styles.Services} id="Servicios">
       <h2>Nuestros Servicios</h2>
       <div className={styles.ServicesWrapper}>
         <div>

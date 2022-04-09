@@ -9,7 +9,7 @@
   @apply flex flex-col items-center py-4;
 }
 
-.Nav > span {
+.Nav > a {
   color: var(--white);
   font-size: var(--font-medium);
   font-weight: var(--font-bold);
@@ -20,7 +20,7 @@
   @apply flex hidden lg:block;
 }
 
-.NavDesktop > span {
+.NavDesktop > a {
   color: var(--white);
   font-size: var(--font-small);
   font-weight: var(--font-bold);

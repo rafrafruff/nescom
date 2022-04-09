@@ -38,13 +38,17 @@
   --secondary: #9e98aa;
   --black: #282022;
   --white: white;
-  --font-big: 18pt;
-  --font-medium: 12pt;
-  --font-small: 8pt;
+  --font-big: 14pt;
+  --font-medium: 10pt;
+  --font-small: 6pt;
   --font-light: 300;
   --font-normal: 500;
   --font-bold: 700;
   --light-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -54,8 +58,8 @@ body {
 
 @media only screen and (min-width: 576px) {
   :root {
-    --font-big: 20pt;
-    --font-medium: 14pt;
+    --font-big: 18pt;
+    --font-medium: 12pt;
     --font-small: 10pt;
   }
 }

@@ -3,11 +3,11 @@ import styles from '../styles/Nav.module.css'
 export default function NavDesktop() {
   return (
     <nav className={styles.NavDesktop}>
-      <span>Inicio</span>
-      <span>Servicios</span>
-      <span>Clientes</span>
-      <span>Nestor Estévez</span>
-      <span>Publicaciones</span>
+      <a href="#Inicio">Inicio</a>
+      <a href="#Servicios">Servicios</a>
+      <a href="#Clientes">Clientes</a>
+      <a href="#Blog">Néstor Estévez</a>
+      <a href="#Publicaciones">Publicaciones</a>
     </nav>
   )
 }

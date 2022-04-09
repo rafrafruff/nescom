@@ -7,7 +7,7 @@ import styles from '../styles/Blog.module.css'
 
 export default function Blog() {
   return (
-    <div className={styles.Blog}>
+    <div className={styles.Blog} id="Blog">
       <div className={styles.ImageWrapper}>
         <Image layout="fill" src={Nestor} alt="Néstor Estévez" />
       </div>
@@ -20,32 +20,68 @@ export default function Blog() {
       <div className={styles.Publicaciones}>
         <div>
           <h4>Publicaciones destacadas</h4>
-          <span>
-            Tres pasos para lograr objetivos
-            <Icon path={mdiArrowRight} size={1} />
+          <span className={styles.Post}>
+            <span className={styles.PostLink}>
+              <Link href="/" passHref>
+                Tres pasos para lograr objetivos
+              </Link>
+            </span>
+            <span className={styles.PostIcon}>
+              <Icon path={mdiArrowRight} size={1} />
+            </span>
           </span>
-          <span>
-            SOS para Santiago Rodríguez
-            <Icon path={mdiArrowRight} size={1} />
+          <span className={styles.Post}>
+            <span className={styles.PostLink}>
+              <Link href="/" passHref>
+                SOS para Santiago Rodríguez
+              </Link>
+            </span>
+            <span className={styles.PostIcon}>
+              <Icon path={mdiArrowRight} size={1} />
+            </span>
           </span>
-          <span>
-            ¿Estás cambiando de verdad?
-            <Icon path={mdiArrowRight} size={1} />
+          <span className={styles.Post}>
+            <span className={styles.PostLink}>
+              <Link href="/" passHref>
+                ¿Estás cambiando de verdad?
+              </Link>
+            </span>
+            <span className={styles.PostIcon}>
+              <Icon path={mdiArrowRight} size={1} />
+            </span>
           </span>
         </div>
         <div>
           <h4>Publicaciones corporativas</h4>
-          <span>
-            Tres pasos para lograr objetivos
-            <Icon path={mdiArrowRight} size={1} />
+          <span className={styles.Post}>
+            <span className={styles.PostLink}>
+              <Link href="/" passHref>
+                Tres pasos para lograr objetivos
+              </Link>
+            </span>
+            <span className={styles.PostIcon}>
+              <Icon path={mdiArrowRight} size={1} />
+            </span>
           </span>
-          <span>
-            SOS para Santiago Rodríguez
-            <Icon path={mdiArrowRight} size={1} />
+          <span className={styles.Post}>
+            <span className={styles.PostLink}>
+              <Link href="/" passHref>
+                SOS para Santiago Rodríguez
+              </Link>
+            </span>
+            <span className={styles.PostIcon}>
+              <Icon path={mdiArrowRight} size={1} />
+            </span>
           </span>
-          <span>
-            ¿Estás cambiando de verdad?
-            <Icon path={mdiArrowRight} size={1} />
+          <span className={styles.Post}>
+            <span className={styles.PostLink}>
+              <Link href="/" passHref>
+                ¿Estás cambiando de verdad?
+              </Link>
+            </span>
+            <span className={styles.PostIcon}>
+              <Icon path={mdiArrowRight} size={1} />
+            </span>
           </span>
         </div>
       </div>

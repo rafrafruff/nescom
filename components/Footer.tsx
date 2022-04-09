@@ -16,11 +16,11 @@ export default function Footer() {
           <Form />
         </div>
         <div className={styles.FooterNav}>
-          <span>Inicio</span>
-          <span>Servicios</span>
-          <span>Clientes</span>
-          <span>Nestor Estévez</span>
-          <span>Publicaciones</span>
+          <a href="#Inicio">Inicio</a>
+          <a href="#Servicios">Servicios</a>
+          <a href="#Clientes">Clientes</a>
+          <a href="#Blog">Néstor Estévez</a>
+          <a href="#Publicaciones">Publicaciones</a>
         </div>
         <div className={styles.FooterInfo}>
           <div className={styles.ImageWrapper}>
@@ -31,13 +31,31 @@ export default function Footer() {
           <span>contacto@nescomrd.com</span>
           <div className={styles.SocialMedia}>
             <div className={styles.SocialMediaIconWrapper}>
-              <Image src={Facebook} alt="Facebook" />
+              <a
+                href="https://www.facebook.com/nescom.srl"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image src={Facebook} alt="Facebook" />
+              </a>
             </div>
             <div className={styles.SocialMediaIconWrapper}>
-              <Image src={Instagram} alt="Instagram" />
+              <a
+                href="https://www.instagram.com/nescomrd/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image src={Instagram} alt="Instagram" />
+              </a>
             </div>
             <div className={styles.SocialMediaIconWrapper}>
-              <Image src={Twitter} alt="Twitter" />
+              <a
+                href="https://twitter.com/nescomRD"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image src={Twitter} alt="Twitter" />
+              </a>
             </div>
           </div>
         </div>

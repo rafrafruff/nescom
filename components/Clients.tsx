@@ -8,7 +8,7 @@ import styles from '../styles/Clients.module.css'
 
 export default function Clients() {
   return (
-    <div className={styles.Clients}>
+    <div className={styles.Clients} id="Clientes">
       <h2>Nuestros Clientes</h2>
       <div className={styles.TestimonialsWrapper}>
         <div className={styles.Testimonial}>

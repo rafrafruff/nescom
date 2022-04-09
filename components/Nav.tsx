@@ -5,11 +5,11 @@ export default function Nav() {
   return (
     <div id="nav" onClick={navToggleActive} className={styles.NavWrapper}>
       <nav className={styles.Nav}>
-        <span>Inicio</span>
-        <span>Servicios</span>
-        <span>Clientes</span>
-        <span>Nestor Estévez</span>
-        <span>Publicaciones</span>
+        <a href="#Inicio">Inicio</a>
+        <a href="#Servicios">Servicios</a>
+        <a href="#Clientes">Clientes</a>
+        <a href="#Blog">Néstor Estévez</a>
+        <a href="#Publicaciones">Publicaciones</a>
       </nav>
     </div>
   )

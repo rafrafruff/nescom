@@ -6,7 +6,7 @@ import styles from '../styles/Presentation.module.css'
 
 export default function Presentation() {
   return (
-    <div className={styles.Presentation}>
+    <div className={styles.Presentation} id="Inicio">
       <div className={styles.ImageWrapper}>
         <div className={styles.SecondImage}>
           <Image alt="Welcome" src={Welcome2} />

@@ -14,11 +14,11 @@
   @apply flex flex-col py-4 lg:py-0;
 }
 
-.FooterNav > span {
+.FooterNav > a {
   font-size: var(--font-small);
   font-weight: var(--font-bold);
   color: var(--black);
-  @apply my-1;
+  @apply my-1.5;
 }
 
 .FooterInfo {
