@@ -1,6 +1,6 @@
 let i = 0
 
-function imageSlider() {
+function slider() {
   if (i === 0) {
     i++
     document.getElementById('firstImg').style.transform =
@@ -35,7 +35,6 @@ function imageSlider() {
     document.getElementById('secondImg').style.zIndex = '10'
     document.getElementById('thirdImg').style.zIndex = '0'
   }
-  console.log(i)
 }
 
-export default imageSlider
+export default slider

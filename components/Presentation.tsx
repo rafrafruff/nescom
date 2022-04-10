@@ -3,12 +3,12 @@ import Image from 'next/image'
 import Welcome1 from '../images/welcome-1.jpg'
 import Welcome2 from '../images/welcome-2.jpg'
 import Welcome3 from '../images/welcome-3.jpg'
-import imageSlider from '../functions/imageSlider'
+import slider from '../functions/imageSlider'
 import styles from '../styles/Presentation.module.css'
 
 export default function Presentation() {
   useEffect(() => {
-    setInterval(imageSlider, 2500)
+    setInterval(slider, 2500)
   }, [])
   return (
     <div className={styles.Presentation} id="Inicio">
