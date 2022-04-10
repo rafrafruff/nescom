@@ -1,8 +1,6 @@
 import styles from '../styles/Header.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import Icon from '@mdi/react'
-import { mdiMenu } from '@mdi/js'
 import Logo from '../images/nescom-logo.png'
 import Nav from './Nav'
 import navToggleActive from '../functions/navToggleActive'
@@ -17,9 +15,7 @@ export default function Header() {
             <Image src={Logo} width={50} height={50} alt="logo" />
           </Link>
         </div>
-        <div onClick={navToggleActive} className={styles.HamMenuWrapper}>
-          <Icon className={styles.Open} path={mdiMenu} size={1} />
-        </div>
+        <div onClick={navToggleActive} className={styles.HamMenuWrapper}></div>
         <NavDesktop />
       </div>
       <Nav />

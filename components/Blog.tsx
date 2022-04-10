@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Nestor from '../images/nestor.jpg'
-import Icon from '@mdi/react'
-import { mdiArrowRight } from '@mdi/js'
 import styles from '../styles/Blog.module.css'
 
 export default function Blog() {
@@ -26,9 +24,7 @@ export default function Blog() {
                 Tres pasos para lograr objetivos
               </Link>
             </span>
-            <span className={styles.PostIcon}>
-              <Icon path={mdiArrowRight} size={1} />
-            </span>
+            <span className={styles.PostIcon}></span>
           </span>
           <span className={styles.Post}>
             <span className={styles.PostLink}>
@@ -36,9 +32,7 @@ export default function Blog() {
                 SOS para Santiago Rodríguez
               </Link>
             </span>
-            <span className={styles.PostIcon}>
-              <Icon path={mdiArrowRight} size={1} />
-            </span>
+            <span className={styles.PostIcon}></span>
           </span>
           <span className={styles.Post}>
             <span className={styles.PostLink}>
@@ -46,9 +40,7 @@ export default function Blog() {
                 ¿Estás cambiando de verdad?
               </Link>
             </span>
-            <span className={styles.PostIcon}>
-              <Icon path={mdiArrowRight} size={1} />
-            </span>
+            <span className={styles.PostIcon}></span>
           </span>
         </div>
         <div>
@@ -59,9 +51,7 @@ export default function Blog() {
                 Tres pasos para lograr objetivos
               </Link>
             </span>
-            <span className={styles.PostIcon}>
-              <Icon path={mdiArrowRight} size={1} />
-            </span>
+            <span className={styles.PostIcon}></span>
           </span>
           <span className={styles.Post}>
             <span className={styles.PostLink}>
@@ -69,9 +59,7 @@ export default function Blog() {
                 SOS para Santiago Rodríguez
               </Link>
             </span>
-            <span className={styles.PostIcon}>
-              <Icon path={mdiArrowRight} size={1} />
-            </span>
+            <span className={styles.PostIcon}></span>
           </span>
           <span className={styles.Post}>
             <span className={styles.PostLink}>
@@ -79,9 +67,7 @@ export default function Blog() {
                 ¿Estás cambiando de verdad?
               </Link>
             </span>
-            <span className={styles.PostIcon}>
-              <Icon path={mdiArrowRight} size={1} />
-            </span>
+            <span className={styles.PostIcon}></span>
           </span>
         </div>
       </div>
