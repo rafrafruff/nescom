@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Welcome1 from '../images/welcome-1.jpg'
 import Welcome2 from '../images/welcome-2.jpg'
 import Welcome3 from '../images/welcome-3.jpg'
-import slider from '../functions/imageSlider'
+import slider from '../functions/imageSliderFunc'
 import styles from '../styles/Presentation.module.css'
 
 export default function Presentation() {
