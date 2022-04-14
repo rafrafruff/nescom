@@ -18,56 +18,38 @@ export default function Blog() {
       <div className={styles.Publicaciones}>
         <div>
           <h4>Publicaciones destacadas</h4>
-          <span className={styles.Post}>
-            <span className={styles.PostLink}>
-              <Link href="/" passHref>
-                Tres pasos para lograr objetivos
-              </Link>
-            </span>
-            <span className={styles.PostIcon}></span>
+          <span className={styles.PostLink}>
+            <Link href="/" passHref>
+              Tres pasos para lograr objetivos
+            </Link>
           </span>
-          <span className={styles.Post}>
-            <span className={styles.PostLink}>
-              <Link href="/" passHref>
-                SOS para Santiago Rodríguez
-              </Link>
-            </span>
-            <span className={styles.PostIcon}></span>
+          <span className={styles.PostLink}>
+            <Link href="/" passHref>
+              SOS para Santiago Rodríguez
+            </Link>
           </span>
-          <span className={styles.Post}>
-            <span className={styles.PostLink}>
-              <Link href="/" passHref>
-                ¿Estás cambiando de verdad?
-              </Link>
-            </span>
-            <span className={styles.PostIcon}></span>
+          <span className={styles.PostLink}>
+            <Link href="/" passHref>
+              ¿Estás cambiando de verdad?
+            </Link>
           </span>
         </div>
         <div>
           <h4>Publicaciones corporativas</h4>
-          <span className={styles.Post}>
-            <span className={styles.PostLink}>
-              <Link href="/" passHref>
-                Tres pasos para lograr objetivos
-              </Link>
-            </span>
-            <span className={styles.PostIcon}></span>
+          <span className={styles.PostLink}>
+            <Link href="/" passHref>
+              Tres pasos para lograr objetivos
+            </Link>
           </span>
-          <span className={styles.Post}>
-            <span className={styles.PostLink}>
-              <Link href="/" passHref>
-                SOS para Santiago Rodríguez
-              </Link>
-            </span>
-            <span className={styles.PostIcon}></span>
+          <span className={styles.PostLink}>
+            <Link href="/" passHref>
+              SOS para Santiago Rodríguez
+            </Link>
           </span>
-          <span className={styles.Post}>
-            <span className={styles.PostLink}>
-              <Link href="/" passHref>
-                ¿Estás cambiando de verdad?
-              </Link>
-            </span>
-            <span className={styles.PostIcon}></span>
+          <span className={styles.PostLink}>
+            <Link href="/" passHref>
+              ¿Estás cambiando de verdad?
+            </Link>
           </span>
         </div>
       </div>

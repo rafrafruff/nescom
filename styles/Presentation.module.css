@@ -3,7 +3,7 @@
 }
 
 .ImageWrapper {
-  @apply flex relative my-8 lg:my-0;
+  @apply flex relative mb-12 md:mb-24 lg:mb-0;
 }
 
 .ImageWrapper > div {
@@ -12,15 +12,15 @@
 }
 
 .ImageWrapper > .FirstImage {
-  @apply hidden lg:grid lg:translate-x-1/2 transition-all duration-500 ease-in-out;
+  @apply translate-x-1/2 transition-all duration-500 ease-in-out;
 }
 
 .ImageWrapper > .SecondImage {
-  @apply lg:z-10 lg:scale-125 transition-all duration-500 ease-in-out;
+  @apply z-10 scale-125 transition-all duration-500 ease-in-out;
 }
 
 .ImageWrapper > .ThirdImage {
-  @apply hidden lg:grid lg:-translate-x-1/2 transition-all duration-500 ease-in-out;
+  @apply -translate-x-1/2 transition-all duration-500 ease-in-out;
 }
 
 .Heading {

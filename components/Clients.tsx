@@ -1,6 +1,7 @@
 import Alexandre from '../images/alexandre.jpeg'
 import Marisol from '../images/marisol.png'
 import Popular from '../images/popular.png'
+import QuoteIcon from '../images/quote.png'
 import Image from 'next/image'
 import styles from '../styles/Clients.module.css'
 
@@ -10,6 +11,9 @@ export default function Clients() {
       <h2>Nuestros Clientes</h2>
       <div className={styles.TestimonialsWrapper}>
         <div className={styles.Testimonial}>
+          <div className={styles.QuoteIcon}>
+            <Image src={QuoteIcon} alt="Quote icon" />
+          </div>
           <p className={styles.TestimonialQuote}>
             Como Vicepresidente de países del grupo BID me es grato saludarte y
             agradecerte tu impecable participación como maestro de ceremonias
@@ -31,6 +35,9 @@ export default function Clients() {
           </div>
         </div>
         <div className={styles.Testimonial}>
+          <div className={styles.QuoteIcon}>
+            <Image src={QuoteIcon} alt="Quote icon" />
+          </div>
           <p className={styles.TestimonialQuote}>
             Por primera vez contratamos sus servicios y a la verdad quedamos
             maravillados con su profesionalismo, son su expertise y cómo se
@@ -52,6 +59,9 @@ export default function Clients() {
           </div>
         </div>
         <div className={styles.Testimonial}>
+          <div className={styles.QuoteIcon}>
+            <Image src={QuoteIcon} alt="Quote icon" />
+          </div>
           <p className={styles.TestimonialQuote}>
             Compartir con ustedes esta formación siempre es gratificante y de
             aprendizaje, por lo que la Fundación Popular se siente altamente

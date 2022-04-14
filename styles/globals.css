@@ -38,9 +38,9 @@
   --secondary: #9e98aa;
   --black: #282022;
   --white: white;
-  --font-big: 14pt;
-  --font-medium: 10pt;
-  --font-small: 6pt;
+  --font-big: 16pt;
+  --font-medium: 12pt;
+  --font-small: 10pt;
   --font-light: 300;
   --font-normal: 500;
   --font-bold: 700;
@@ -58,7 +58,7 @@ body {
 
 @media only screen and (min-width: 576px) {
   :root {
-    --font-big: 18pt;
+    --font-big: 24pt;
     --font-medium: 12pt;
     --font-small: 10pt;
   }

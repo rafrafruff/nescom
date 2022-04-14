@@ -14,9 +14,22 @@
 }
 
 .HamMenuWrapper {
-  @apply cursor-pointer grid place-items-center lg:hidden;
+  @apply grid place-items-center cursor-pointer lg:hidden;
 }
 
-.Open {
-  color: var(--white);
+.HamMenu {
+  background-color: var(--white);
+  @apply relative block w-6 h-0.5 rounded;
+}
+
+.HamMenu::after {
+  background-color: var(--white);
+  content: '';
+  @apply absolute block w-full h-full top-2 rounded;
+}
+
+.HamMenu::before {
+  background-color: var(--white);
+  content: '';
+  @apply absolute block w-1/2 h-full bottom-2 left-1/2 rounded;
 }

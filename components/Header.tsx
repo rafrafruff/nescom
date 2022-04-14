@@ -8,14 +8,16 @@ import NavDesktop from './NavDesktop'
 
 export default function Header() {
   return (
-    <header id="header" className={styles.Header}>
+    <header className={styles.Header}>
       <div className={styles.HeaderElem}>
         <div className={styles.LogoWrapper}>
           <Link href="/" passHref>
             <Image src={Logo} width={50} height={50} alt="logo" />
           </Link>
         </div>
-        <div onClick={navToggleActive} className={styles.HamMenuWrapper}></div>
+        <div onClick={navToggleActive} className={styles.HamMenuWrapper}>
+          <span className={styles.HamMenu}></span>
+        </div>
         <NavDesktop />
       </div>
       <Nav />

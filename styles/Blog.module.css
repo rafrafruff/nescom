@@ -35,17 +35,9 @@
   @apply pb-8;
 }
 
-.Publicaciones > div > .Post {
+.Publicaciones > div > .PostLink {
   font-size: var(--font-medium);
   font-weight: var(--font-normal);
   color: var(--black);
-  @apply flex items-center my-0;
-}
-
-.Publicaciones > div > .Post > .PostIcon {
-  @apply opacity-0 -translate-x-1 transition-all duration-200 ease-in-out;
-}
-
-.Publicaciones > div > .Post > .PostLink:hover + .PostIcon {
-  @apply opacity-100 translate-x-1;
+  @apply my-2;
 }
