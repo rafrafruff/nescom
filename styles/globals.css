@@ -31,6 +31,16 @@
     font-weight: var(--font-bold);
     @apply px-8 py-4;
   }
+
+  .highlight {
+    @apply my-0 leading-tight relative;
+  }
+
+  .highlight::after {
+    content: '';
+    background-color: var(--primary);
+    @apply block absolute w-full h-2 inset-x-0 bottom-1.5 -z-10;
+  }
 }
 
 :root {

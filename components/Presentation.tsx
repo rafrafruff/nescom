@@ -25,8 +25,8 @@ export default function Presentation() {
       </div>
       <div className={styles.TextWrapper}>
         <h1 className={styles.Heading}>
-          Hacemos más efectivas las relaciones entre nuestros clientes y sus
-          asociados.
+          Hacemos más <span className="highlight">efectivas</span> las
+          relaciones entre nuestros clientes y sus asociados.
         </h1>
         <button className={styles.Button}>Contáctenos!</button>
       </div>
