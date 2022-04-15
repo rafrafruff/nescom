@@ -39,7 +39,7 @@
   .highlight::after {
     content: '';
     background-color: var(--primary);
-    @apply block absolute w-full h-2 inset-x-0 bottom-1.5 -z-10;
+    @apply hidden lg:block absolute w-full h-2 inset-x-0 bottom-2 -z-10;
   }
 }
 

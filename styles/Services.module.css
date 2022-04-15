@@ -15,8 +15,7 @@
 
 .Services > .ServicesWrapper > div {
   background-color: var(--primary);
-  box-shadow: var(--light-shadow);
-  @apply grid place-items-center text-center w-60 mx-auto p-8 rounded-xl relative;
+  @apply grid place-items-center text-center w-60 mx-auto p-8 rounded relative;
 }
 
 .Services > .ServicesWrapper > div > .ImageWrapper {

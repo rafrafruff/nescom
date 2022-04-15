@@ -39,5 +39,5 @@
   font-size: var(--font-medium);
   font-weight: var(--font-normal);
   color: var(--black);
-  @apply my-2;
+  @apply relative my-2;
 }

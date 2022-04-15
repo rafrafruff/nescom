@@ -8,7 +8,7 @@
 
 .ImageWrapper > div {
   box-shadow: var(--light-shadow);
-  @apply grid place-items-center overflow-hidden rounded-lg;
+  @apply grid place-items-center overflow-hidden rounded;
 }
 
 .ImageWrapper > .FirstImage {
@@ -34,7 +34,8 @@
   font-weight: var(--font-bold);
   background-color: var(--primary);
   color: var(--white);
-  @apply rounded-lg mt-6 transition-all duration-200 ease-in-out;
+  box-shadow: var(--light-shadow);
+  @apply rounded mt-6 transition-all duration-200 ease-in-out;
 }
 
 .Button:hover {

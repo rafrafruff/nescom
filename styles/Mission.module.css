@@ -1,7 +1,6 @@
 .MissionModal {
   background-color: var(--primary);
-  transform: translateY(-50px);
-  @apply grid grid-cols-1 gap-12 rounded-lg py-8 px-12 text-center lg:grid-cols-3;
+  @apply grid grid-cols-1 gap-12 rounded py-8 px-12 text-center lg:grid-cols-3 -translate-y-24 lg:-translate-y-16;
 }
 
 .MissionModal > .MissionPrimarySection > h2 {
