@@ -1,10 +1,12 @@
 import styles from '../styles/Header.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Logo from '../images/nescom-logo.png'
 import Nav from './Nav'
 import navToggleActive from '../functions/navToggleActive'
 import NavDesktop from './NavDesktop'
+import { faHamburger, faNavicon } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
   return (
@@ -16,7 +18,10 @@ export default function Header() {
           </Link>
         </div>
         <div onClick={navToggleActive} className={styles.HamMenuWrapper}>
-          <span className={styles.HamMenu}></span>
+          <FontAwesomeIcon
+            className={styles.HamMenuWrapperIcon}
+            icon={faNavicon}
+          />
         </div>
         <NavDesktop />
       </div>

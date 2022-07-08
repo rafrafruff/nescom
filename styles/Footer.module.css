@@ -47,6 +47,24 @@
   @apply flex overflow-hidden m-2 rounded-full;
 }
 
+.SocialMediaIconWrapper > a > * {
+  @apply grid place-items-center w-4 h-4 p-2 transition-all ease-out duration-200;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.SocialMediaIconWrapper > a:hover > .IconFacebook {
+  background-color: #1277f3;
+}
+
+.SocialMediaIconWrapper > a:hover > .IconInstagram {
+  background-color: #c034d5;
+}
+
+.SocialMediaIconWrapper > a:hover > .IconTwitter {
+  background-color: #1c9ff0;
+}
+
 .PostFooter {
   background-color: var(--black);
   font-size: var(--font-small);

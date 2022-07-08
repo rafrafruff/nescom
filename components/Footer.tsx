@@ -1,8 +1,11 @@
 import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faFacebookF,
+  faInstagram,
+  faTwitter,
+} from '@fortawesome/free-brands-svg-icons'
 import Logo from '../images/nescom-logo.png'
-import Facebook from '../images/facebook.png'
-import Instagram from '../images/instagram.png'
-import Twitter from '../images/twitter.png'
 import Form from './Form'
 import styles from '../styles/Footer.module.css'
 
@@ -36,7 +39,10 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Image src={Facebook} alt="Facebook" />
+                <FontAwesomeIcon
+                  className={styles.IconFacebook}
+                  icon={faFacebookF}
+                />
               </a>
             </div>
             <div className={styles.SocialMediaIconWrapper}>
@@ -45,7 +51,10 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Image src={Instagram} alt="Instagram" />
+                <FontAwesomeIcon
+                  className={styles.IconInstagram}
+                  icon={faInstagram}
+                />
               </a>
             </div>
             <div className={styles.SocialMediaIconWrapper}>
@@ -54,7 +63,10 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Image src={Twitter} alt="Twitter" />
+                <FontAwesomeIcon
+                  className={styles.IconTwitter}
+                  icon={faTwitter}
+                />
               </a>
             </div>
           </div>

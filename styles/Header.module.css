@@ -1,7 +1,7 @@
 .Header {
   background-color: var(--primary);
   box-shadow: var(--light-shadow);
-  @apply fixed inset-x-0 z-20 py-2 px-6;
+  @apply fixed inset-x-0 z-20 py-4 px-8 lg:py-2 lg:px-6;
 }
 
 .HeaderElem {
@@ -17,19 +17,7 @@
   @apply grid place-items-center cursor-pointer lg:hidden;
 }
 
-.HamMenu {
-  background-color: var(--white);
-  @apply relative block w-6 h-0.5 rounded;
-}
-
-.HamMenu::after {
-  background-color: var(--white);
-  content: '';
-  @apply absolute block w-full h-full top-2 rounded;
-}
-
-.HamMenu::before {
-  background-color: var(--white);
-  content: '';
-  @apply absolute block w-1/2 h-full bottom-2 left-1/2 rounded;
+.HamMenuWrapperIcon {
+  @apply w-6 h-6;
+  color: var(--white);
 }

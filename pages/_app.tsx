@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import '../styles/globals.css'
-import { createGetInitialProps } from '@mantine/next'
+import { config, library } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css' // import Font Awesome CSS
 
 function MyApp({ Component, pageProps }) {
   return (
