@@ -44,7 +44,7 @@
 }
 
 .SocialMediaIconWrapper {
-  @apply flex overflow-hidden w-8 m-2 rounded-full;
+  @apply flex overflow-hidden m-2 rounded-full;
 }
 
 .PostFooter {

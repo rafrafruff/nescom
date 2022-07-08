@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import '../styles/globals.css'
+import { createGetInitialProps } from '@mantine/next'
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Nestor from '../images/nestor.jpg'
+import Nestor from '../images/nestor.png'
 import styles from '../styles/Blog.module.css'
 
 export default function Blog() {
