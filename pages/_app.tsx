@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import '../styles/globals.css'
-import { config, library } from '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/fontawesome-svg-core/styles.css' // import Font Awesome CSS
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,6 +10,7 @@ function MyApp({ Component, pageProps }) {
         <meta charSet="UTF-8" />
         <meta name="description" content="NextJS app" />
         <meta name="keywords" content="NextJS, TypeScript, Tailwind" />
+        <meta property="og:image" content="/images/thumbnail.png" />
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />

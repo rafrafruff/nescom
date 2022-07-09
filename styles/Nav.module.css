@@ -24,5 +24,9 @@
   color: var(--white);
   font-size: var(--font-small);
   font-weight: var(--font-bold);
-  @apply mx-4;
+  @apply mx-4 no-underline;
+}
+
+.NavDesktop > a:hover {
+  @apply underline;
 }
